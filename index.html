@@ -42,7 +42,7 @@
             snowflake.innerHTML = "❄";
             snowflake.classList.add("snowflake");
             snowflake.style.left = Math.random() * 100 + "vw";
-            snowflake.style.animationDuration = Math.random() * 3 + 5 + "s";
+            snowflake.style.animationDuration = Math.random() * 3 + 8 + "s";
             document.body.appendChild(snowflake);
             
             // 雪花飘落结束后移除元素
@@ -53,7 +53,7 @@
         
         // 控制雪花的数量和频率
         function snowfall() {
-            setInterval(createSnowflake, 500);
+            setInterval(createSnowflake, 800);
         }
         
         // 开始下雪
